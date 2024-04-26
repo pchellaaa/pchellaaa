@@ -1,0 +1,346 @@
+
+html{
+
+  scroll-behavior: smooth;
+}
+body{
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+.border-box{
+  box-sizing: border-box;
+
+}
+
+header{
+  display: flex;
+  height: 94px;
+
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+  .header-logo img{
+    height: 65px;
+    width: 392px;
+  
+  }
+  .header-nav{
+  height: fit-content;
+  width: fit-content;
+
+  }
+
+
+
+  .container {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto; 
+  }
+
+  main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+
+  
+  section#best .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mem{
+    gap: 52px;
+    display: flex;
+    justify-content: center;
+  }
+
+  section#zakaz .container .zakaz {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+
+
+    a{
+
+      position: absolute;
+      top: 380px;
+      left: 290px;
+      padding: 7px 28px;
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      background-color: #9E4A4A;
+      text-align: center;
+      text-decoration: dashed;
+      
+
+    }
+
+  }
+
+  section#zakaz {
+    padding: 150px 0;
+    background-image: url("../images/zakaz1.png");
+    background-size: cover;
+
+
+  }
+
+  section#zakaz2 .container .zakaz2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    width: 100%;
+
+    a{
+      position: absolute;
+      top: 320px;
+      left: 820px;
+      padding: 5px 26px;
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      background-color: #3e184d;
+      text-align: center;
+      text-decoration: dashed;
+
+    }
+
+  }
+
+  section#zakaz2 {
+    padding: 150px 0;
+    background-image: url("../images/zakaz2.png");
+    background-size: cover;
+  }
+
+  section#zakaz3 .container  .zakaz3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 100%;
+
+    a{
+      position: absolute;
+      top: 320px;
+      left: 375px;
+      padding: 5px 29px;
+      border: 1px solid #ffffff;
+      border-radius: 10px;
+      background-color: #68696A;
+      text-align: center;
+      text-decoration: dashed;
+
+
+    }
+
+  }
+
+  section#zakaz3 {
+    padding: 150px 0;
+    background-image: url("../images/zakaz3.png");
+    background-size: cover;
+  }
+
+
+
+  section#zakaz4 {
+    padding: 150px 0;
+    background-image: url("../images/zakaz4.png");
+    background-size: cover;
+    
+    h1{
+    text-align: center; 
+    }
+
+    p{
+      text-align: center;
+      text-align-last: left; 
+      }
+  }
+
+  .swiper-slide{
+    text-align: center;
+  } 
+
+
+  .btn_order{
+    display:flex;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+
+    
+  section#about .container .about {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-end;
+      position: relative;
+      width: 100%;
+  
+      a{
+        position: absolute;
+        top: 100px;
+        left: 80px;
+        padding: 5px 26px;
+        border: 1px solid #ffffff00;
+        background-color: #716d7465;
+        text-decoration: dashed;
+  
+      }
+  
+    }
+
+    section#obzor .container {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+    section#nap .container .nap{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+
+  a{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    padding: 5px 26px;
+    border: 1px solid #7a777700;
+    background-color: #716d7465;
+    text-decoration: dashed;
+
+  }
+}
+
+
+
+    .obzor{
+      gap: 52px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    section#karta .container .karta {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      width: 100%;
+      b{
+        position: absolute;
+        top: 500px;
+        left: 500px;
+        padding: 5px 26px;
+        border: 1px solid #47404000;
+        background-color: #4d494e9d;
+        text-decoration: dashed;
+  
+      }
+  
+    }
+
+    section#otzv .container {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .otzv1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    section#footer {
+      padding: 150px 0;
+      background-image: url("../images/zakaz4.png");
+      background-size: cover;
+    }
+
+    .footer-nav{
+      /* height: fit-content;
+      width: fit-content; */
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: end;
+
+
+      }
+
+      .dropbtn {
+        text-align: left;
+        color: rgb(255, 255, 255);
+        background-color: #000;
+        width: 227px;
+        font-size: 30px;
+        /* border: none; */
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #ffffffbe;
+        min-width: 160px;
+        box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 0.493);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 20px;
+    }
+
+    .class{
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .dropdown-content a:hover {background-color: #685d5d;}
+    
+    .dropdown:hover .dropdown-content {display: block;}
+    .dropdown:hover .dropbtn {background-color: #685d5d;}
+    /*swiper */
